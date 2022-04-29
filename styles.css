@@ -1,0 +1,66 @@
+body{
+  background-color: #cf9e2a;
+}
+.container{
+  padding-top: 30px;
+  border-radius: 2rem;
+ 
+}
+h1 {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: "Patrick Hand", cursive;
+  font-size: 4rem;
+  font-weight: 600;
+  padding-bottom: 1rem;
+  margin-top: 1rem;
+}
+.play button{
+  font-family: "Patrick Hand", cursive;
+  font-size: 3rem;
+  font-weight: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 1rem;
+}
+.card-small{
+  display: flex;
+  flex-direction: row;
+  border-radius: 2rem;
+ 
+}
+.character{
+  background: url('/img/guest.jpeg') ;
+  background-size: cover;
+  width: 120px;
+  height: 120px;
+  padding: 10px;
+  margin: 10px;
+  display: none;
+
+
+}
+.hidden{
+  display: none;
+}
+.visible{
+  display: block;
+}
+.card{
+  background-color: #FFECBA;
+  border-radius: 800px;
+  padding: 5rem;
+  padding-left: 5rem;
+}
+.thief{
+  background: url('/img/thief.png') ;
+  background-size: cover;
+  /* display: flex; */
+  flex-direction: row;
+  border-radius: 2rem;
+  width: 120px;
+  height: 120px;
+  padding: 10px;
+  margin: 10px;
+
+}
