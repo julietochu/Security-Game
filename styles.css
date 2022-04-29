@@ -2,8 +2,11 @@ body{
   background-color: #cf9e2a;
 }
 .container{
-  padding-top: 30px;
-  border-radius: 2rem;
+  display:flex;
+  flex-direction: row;
+  padding-top: 20px;
+  justify-content: center;
+  align-items: center;
  
 }
 h1 {
@@ -11,22 +14,20 @@ h1 {
   flex-direction: row;
   justify-content: center;
   font-family: "Patrick Hand", cursive;
-  font-size: 4rem;
+  font-size: 2rem;
   font-weight: 600;
-  padding-bottom: 1rem;
   margin-top: 1rem;
 }
 .play button{
   font-family: "Patrick Hand", cursive;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 1rem;
-  padding-bottom: 1rem;
-  margin-top: 1rem;
+  
 }
 .card-small{
   display: flex;
   flex-direction: row;
-  border-radius: 2rem;
+  border-radius: 1rem;
  
 }
 .character{
@@ -48,14 +49,13 @@ h1 {
 }
 .card{
   background-color: #FFECBA;
-  border-radius: 800px;
-  padding: 5rem;
-  padding-left: 5rem;
+  border-radius: 550px;
+  max-height: 700px;
+  max-width: 900px;
 }
 .thief{
   background: url('/img/thief.png') ;
   background-size: cover;
-  /* display: flex; */
   flex-direction: row;
   border-radius: 2rem;
   width: 120px;
